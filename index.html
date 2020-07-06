@@ -4,9 +4,10 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Meu Perfil</title>
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-   <ul>
+   <ul id="menu">
       <li>
          <a href="index.html"> Home </a>
       </li>
@@ -15,30 +16,66 @@
       </li>
    </ul>
 
-   <h1>Sobre o Thiago</h1>
-   
-   <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
-   </p>
-   <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore et pariatur, illo fugit, architecto autem aperiam, dignissimos dolore eius tenetur sunt illum inventore asperiores officia voluptates expedita explicabo perspiciatis!  
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio velit, eveniet placeat reiciendis, eum et tempora fuga doloribus repellendus, possimus rem tempore ipsam aut eligendi beatae quidem saepe temporibus.
-   </p>
+   <h1 class="center">Sobre o Thiago</h1>
+   <div class="container">
 
-   <img src="assets/img/foto babu.jpg" alt="Foto do criador desse conteudo">
+      <div>
+         <img class="br-50 wh-300 p-30" src="assets/img/foto babu.jpg" alt="Foto do criador desse conteudo">
+      </div>
 
-   <h2>Meu video predileto:</h2>
+      <div class="p-30">
+         <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
+         </p>
+         <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore et pariatur, illo fugit, architecto autem aperiam, dignissimos dolore eius tenetur sunt illum inventore asperiores officia voluptates expedita explicabo perspiciatis!  
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio velit, eveniet placeat reiciendis, eum et tempora fuga doloribus repellendus, possimus rem tempore ipsam aut eligendi beatae quidem saepe temporibus.
+         </p>
+      </div>
 
-   <iframe 
-   width="560" 
-   height="315" 
-   src="https://www.youtube.com/embed/tYCXQoo-doM" 
-   frameborder="0" 
-   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-   allowfullscreen
-   ></iframe>
+     
       
+      
+   </div>
+   
+
+   
+
+   <h2 class="center">Meu video predileto:</h2>
+
+   <div class="container mb-50">
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/tYCXQoo-doM" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      ></iframe>
+   </div>
+   <hr>
+   <footer>
+
+      <div class="container">
+         <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+         </a>
+         
+         <a href="https://www.linkedin.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+         </a>
+         
+         <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+         </a>
+         
+      </div>
+
+      <p class="center">
+         Todos os direitos reservados: Thiago Lima &copy
+      </p> 
+   </footer>
 
   
 </body>
